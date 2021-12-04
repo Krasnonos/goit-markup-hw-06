@@ -624,6 +624,7 @@ color: #212121;
     transition: transform var(--time) var(--cube);
     width: 528px;
     min-height: 581px;
+    padding: 40px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -649,4 +650,88 @@ color: #212121;
 }
 .icon-close{
     fill: currentColor;
+}
+.modal-title{
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-important-color);
+}
+.form-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.modal-label{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--black-main-color);
+}
+.modal-input{
+    width: 100%;
+    height: 40px;
+    padding: 12px 42px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--black-main-color);
+    outline: none;
+}
+.input-thumb{
+    position: relative;
+    margin-top: 4px;
+}
+.input-icon{
+    position: absolute;
+    left: 12px;
+    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.modal-label + .modal-label{
+    margin-top: 10px;
+}
+.text-input{
+    resize: none;
+    width: 100%;
+    min-height: 120px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    padding: 12px 16px;
+}
+.text-input::placeholder{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+}
+.privacy-lable{
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1.72;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.privacy-link{
+    color: var(--accent-color);
+}
+.modal-button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 10px 55px;
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
 }
