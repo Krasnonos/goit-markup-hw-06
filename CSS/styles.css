@@ -419,6 +419,7 @@ color: #212121;
 /* footer */
 .footer > .container{
     display: flex;
+    align-items: baseline;
 }
 .footer {
     padding-top: 60px;
